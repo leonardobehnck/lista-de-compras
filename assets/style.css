@@ -1,0 +1,62 @@
+html {
+  background: linear-gradient(177.52deg, #353535 2.11%, #000000 81.34%);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', 'sans-serif', 'Mansalva', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', 'sans-serif', 'Mansalva', cursive;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+main div {
+  padding: 20px;
+  border-radius: 5px; 
+}
+
+button {
+  background-color: white;
+  border: none;
+  margin: 30px;
+  padding: 5px;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f2f2f2;
+}
+
+.itens-comprados {
+  text-decoration: line-through;
+  border-radius: 5px;
+}
+
+.borda-lista {
+  border-bottom: dotted 2px rgb(0, 0, 0);
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px; 
+  background: white;
+  padding: 15px;
+}
+
+input:disabled {
+  border: none;
+}
+
+footer {
+  font-family: 'Montserrat', 'sans-serif', 'Mansalva', cursive;
+  font-size: 0.8em;
+  font-weight: bold;
+}
