@@ -42,14 +42,12 @@ button:hover {
   border-bottom: dotted 2px rgb(0, 0, 0);
 }
 
+.item-lista {
+  margin: 5px;
+}
 .item-lista span {
   float: right;
 }
-
-/* .item-lista div {
-  display: flex;
-  flex-direction: row;
-} */
 
 .item-lista input {
   border: none;
@@ -58,7 +56,6 @@ button:hover {
 .item-lista span {
   cursor: pointer;
 }
-
 
 main form input {
   width: 100%;
