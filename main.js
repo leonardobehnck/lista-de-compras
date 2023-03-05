@@ -28,6 +28,7 @@ function salvarItem() {
 }
 
 function printItem() {
+  listaDeItens.innerHTML = ''
   listaDeCompras.forEach((elemento, index) => {
     listaDeItens.innerHTML += `
     <li class="item-lista" data-value="${elemento.index}">
@@ -36,13 +37,6 @@ function printItem() {
       <span class="material-symbols-outlined" id="deletar-item">delete</span>
     </li>    
     `
-    const deletarItem = document.getElementById('deletar-item')
-    deletarItem.addEventListener("click", function() {
-      alert('calma bimbaboy to fazendo ainda')
-    
   })
-
-});
-
 }
 
