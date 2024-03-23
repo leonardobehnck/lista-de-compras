@@ -48,11 +48,16 @@ button:hover {
 
 .item-lista span {
   float: right;
+  cursor: pointer;
 }
 
 .item-lista input {
   border: none;
   cursor: pointer;
+}
+
+.item-lista input:hover {
+  font-weight: bold;
 }
 
 main form input {
